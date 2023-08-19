@@ -1,0 +1,88 @@
+/* styles.css */
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+.main{
+  width: 100%;
+  color: rgb(10, 10, 10);
+  background-color: rgba(0, 255, 255, 0.109);
+  border: #e70000;
+  
+
+}
+.btn{
+   background-color: rgb(0, 0, 0);
+   color: #f1f1f1;
+  text-align: center;
+  
+}
+.nunber{
+  width: 100px; 
+  color: rgb(1, 1, 1);
+}
+
+.banner-upload-btn{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fffdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.banner-upload-btn img{
+  width: 80px;
+}
+.content-text{
+  width: 200px;
+  height: 100px;
+  border: #000000;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.container {
+ max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;  
+  text-align: left;
+  color: #000000;
+}
+.blog-form {
+  
+  display: flex;
+  flex-direction: column;
+}
+.blog-form label, .blog-form textarea, .blog-form button {
+  margin-bottom: 10px;
+}
+.text{ 
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;  
+  text-align: left;
+  color: #000000;
+
+}
+.write{
+background-color: rgb(0, 0, 0);
+color: #f1f1f1;
+text-align: center;
+
+}
